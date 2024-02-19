@@ -50,28 +50,22 @@ const IndexPage = () => {
           <img
             src="https://i.postimg.cc/4NJvKgzc/lamp.png"
             alt="Lamp"
-            className="lamp w-full"
+            className="lamp "
           />
           <img
             src="https://i.postimg.cc/W1y0fqxm/light.png"
             alt="Light"
-            className={`light absolute top-full left-1/2 transform -translate-x-1/2 w-96 ${
+            className={`light absolute top-full h-52 w-96 ${
               isLightOn ? "opacity-100" : "opacity-0"
             } transition-opacity duration-500`}
           />
         </div>
         <div className="text-container max-w-screen-lg mt-24 ml-1/2">
-          <h1 className="text-6xl font-light mb-8">Latest in lighting</h1>
-          <p className="mb-8">
-            This is the first lamp from our company. We're making a huge
-            collection of modern lamps in all categories from home use to office
-            use.
-          </p>
           <a
             href=""
             className="bg-green-500 text-white px-8 py-4 inline-block rounded-full text-lg"
           >
-            Check All Collections
+            Check All
           </a>
           <div className="control mt-24 flex items-center justify-end">
             <p className="mr-4">04</p>
