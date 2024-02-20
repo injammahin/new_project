@@ -26,7 +26,7 @@ const IndexPage = () => {
           />
           <ul className="flex">
             <li>
-              <a href="" className="mr-4">
+              <a href="./components/product" className="mr-4">
                 Latest
               </a>
             </li>
